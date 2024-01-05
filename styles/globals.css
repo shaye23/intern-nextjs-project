@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination-previous,
+  .pagination-next,
+  .pagination-page {
+    margin: 0 5px; /* Adjust the margin as needed */
+  }
+ 
+
+  /* Index.css */
+
+.text-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.animated-text {
+  position: relative;
+  display: inline-block;
+  animation: waveAnimation 1s ease-in-out infinite;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 200px; /* Adjust the maximum width of the images */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto; /* Center the image horizontally */
+}
